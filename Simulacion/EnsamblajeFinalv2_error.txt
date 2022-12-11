@@ -1,0 +1,44 @@
+Constrained Instances: 'Racerstar-BR2205-2300KV-5', 'DronCuadrado.step-1'
+Constraint Name: CentroDePerfil1
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Racerstar-BR2205-2300KV-3', 'DronCuadrado.step-1'
+Constraint Name: CentroDePerfil2
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Racerstar-BR2205-2300KV-1', 'DronCuadrado.step-1'
+Constraint Name: CentroDePerfil3
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Racerstar-BR2205-2300KV-2', 'DronCuadrado.step-1'
+Constraint Name: CentroDePerfil4
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: '20x20 ESC.step-1', 'DronCuadrado.step-1'
+Constraint Name: CentroDePerfil5
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'DronCuadrado.step-1', 'DronCuadrado.step-1', 'TATTU 1300mah 3s-1/tattu 1300MHa 3s LiPo-1', 'TATTU 1300mah 3s-1/tattu 1300MHa 3s LiPo-1'
+Constraint Name: Ancho1
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Pata.step-1', 'DronCuadrado.step-1'
+Constraint Name: CentroDePerfil6
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Pata.step-2', 'DronCuadrado.step-1'
+Constraint Name: CentroDePerfil7
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Pata.step-3', 'DronCuadrado.step-1'
+Constraint Name: CentroDePerfil8
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Pata.step-4', 'DronCuadrado.step-1'
+Constraint Name: CentroDePerfil9
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'DronCuadrado.step-1', 'DronCuadrado.step-1', 'TATTU 1300mah 3s-1/tattu 1300MHa 3s LiPo-1', 'TATTU 1300mah 3s-1/tattu 1300MHa 3s LiPo-1'
+Constraint Name: Ancho2
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------

@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="02/13/22||11:49:45" using="Simscape Multibody Link Version 6.1" from="SolidWorks 28.3.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="EnsamblajeFinal" uid="EnsamblajeFinal" version="209">
+<AssemblyFile name="EnsamblajeFinal.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Racerstar-BR2205-2300KV-1" uid="Racerstar-BR2205-2300KV-1" entityUid="Racerstar-BR2205-2300KV*:*Default">
+<Transform>
+<Rotation>0.70710678118654635 -7.406550393246809e-15 -0.70710678118654879 0.70710678118654879 7.4065503932467838e-15 0.70710678118654635 0 -1 1.04744440165294e-14</Rotation>
+<Translation>-0.18158864619753193 0.051044874988309681 -0.18868776269040699</Translation>
+</Transform>
+</Instance>
+<Instance name="Racerstar-BR2205-2300KV-3" uid="Racerstar-BR2205-2300KV-3" entityUid="Racerstar-BR2205-2300KV*:*Default">
+<Transform>
+<Rotation>-0.70710678118654147 7.4065503932468595e-15 0.70710678118655368 -0.70710678118655368 -7.4065503932467333e-15 -0.70710678118654147 0 -1 1.04744440165294e-14</Rotation>
+<Translation>-0.021588646197528896 -0.10895512501169206 -0.18868776269040807</Translation>
+</Transform>
+</Instance>
+<Instance name="TATTU 1300mah 3s-1" uid="TATTU 1300mah 3s-1" entityUid="TATTU 1300mah 3s" rigid="true">
+<Transform>
+<Rotation>-1 6.9829626776862667e-15 0 0 -1.04744440165294e-14 1 6.9829626776862667e-15 1 1.04744440165294e-14</Rotation>
+<Translation>-0.1015886461975318 -0.028955125011687895 -0.1858877626904083</Translation>
+</Transform>
+<Instance name="JST XHP-4-1" uid="JST XHP-4-1" entityUid="JST XHP-4*:*Predeterminado">
+<Transform>
+<Rotation>0.16594787175573511 0.98469060683923604 -0.05334522155094306 -0.93833513539235969 0.17431049824835532 0.29856829015923991 0.3032960229675688 0.00050892336086492572 0.95289625009707568</Rotation>
+<Translation>-0.042575451128769017 0.012962425620064527 -0.016349296513503871</Translation>
+</Transform>
+</Instance>
+<Instance name="XT60 Buchse-2" uid="XT60 Buchse-2" entityUid="XT60 Buchse*:*Predeterminado">
+<Transform>
+<Rotation>-2.9411130674854597e-15 0 0.99999999999999989 1 -4.5102810375396984e-16 2.9411130674854605e-15 4.5102810375396984e-16 1 0</Rotation>
+<Translation>0.020354632179655913 0.013225718974971046 -0.022033814357853294</Translation>
+</Transform>
+</Instance>
+<Instance name="FUNDA 13-1" visible="false" uid="FUNDA 13-1" entityUid="FUNDA 13*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.00020000000000000573 0</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.89999997615814209" g="0.89999997615814209" b="0.89999997615814209" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.30000001192092896</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="tattu 1300MHa 3s LiPo-1" uid="tattu 1300MHa 3s LiPo-1" entityUid="tattu 1300MHa 3s LiPo*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.00020000000000000573 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="20x20 ESC.step-1" uid="20x20 ESC.step-1" entityUid="20x20 ESC.step*:*Predeterminado">
+<Transform>
+<Rotation>-3.4914813388431334e-15 -1 0 -1 3.4914813388431334e-15 2.09488880330588e-14 -2.09488880330588e-14 0 -1</Rotation>
+<Translation>-0.10158864619753015 -0.028955125011687521 -0.18868776269040932</Translation>
+</Transform>
+</Instance>
+<Instance name="5045PropellerCW.STEP-1" uid="5045PropellerCW.STEP-1" entityUid="5045PropellerCW.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.22056583867270929 -0.10639619861748874 -0.15053695139154077</Translation>
+</Transform>
+<Instance name="5045 CW.step.STEP-1" uid="5045 CW.step.STEP-1" grounded="true" entityUid="5045 CW.step.STEP*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1e-14 1 0 -1 1e-14</Rotation>
+<Translation>-0.242154484870239 -0.0025589263941999951 -0.055650811298869007</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="5045PropellerCCW.STEP-2" uid="5045PropellerCCW.STEP-2" entityUid="5045PropellerCCW.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.06056583867270926 -0.18639619861748963 -0.15053695139154158</Translation>
+</Transform>
+<Instance name="5045 CCW.step.STEP-1" uid="5045 CCW.step.STEP-1" grounded="true" entityUid="5045 CCW.step.STEP*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1e-14 1 0 -1 1e-14</Rotation>
+<Translation>-0.242154484870239 -0.0025589263941999951 -0.055650811298869007</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Pata.step-1" uid="Pata.step-1" entityUid="Pata.step*:*Predeterminado">
+<Transform>
+<Rotation>-0.70710678118655135 2.4688501310822531e-15 0.70710678118654402 0.70710678118654402 2.4688501310822791e-15 0.70710678118655135 0 1 -3.4914813388431334e-15</Rotation>
+<Translation>-0.021588646197530481 -0.10895512501169116 -0.18568776269040843</Translation>
+</Transform>
+</Instance>
+<Instance name="Pata.step-2" uid="Pata.step-2" entityUid="Pata.step*:*Predeterminado">
+<Transform>
+<Rotation>-0.70710678118655124 2.4336433109598387e-15 0.70710678118654391 0.70710678118654391 2.4336433109598639e-15 0.70710678118655124 0 1 -3.4416913763379849e-15</Rotation>
+<Translation>-0.021588646197530856 0.051044874988308779 -0.18568776269040879</Translation>
+</Transform>
+</Instance>
+<Instance name="Racerstar-BR2205-2300KV-2" uid="Racerstar-BR2205-2300KV-2" entityUid="Racerstar-BR2205-2300KV*:*Default">
+<Transform>
+<Rotation>0.70710678118654635 -7.406550393246809e-15 -0.70710678118654879 0.70710678118654879 7.4065503932467838e-15 0.70710678118654635 0 -1 1.04744440165294e-14</Rotation>
+<Translation>-0.021588646197531935 0.051044874988310548 -0.18868776269040818</Translation>
+</Transform>
+</Instance>
+<Instance name="DronCuadrado.step-1" uid="DronCuadrado.step-1" grounded="true" entityUid="DronCuadrado.step*:*Predeterminado">
+<Transform>
+<Rotation>-3.4914813388431334e-15 -1.04744440165294e-14 -1 1 0 -3.4914813388431334e-15 0 -1 1.04744440165294e-14</Rotation>
+<Translation>-0.10158864619753212 -0.028955125011691049 -0.18568776269040765</Translation>
+</Transform>
+</Instance>
+<Instance name="Racerstar-BR2205-2300KV-5" uid="Racerstar-BR2205-2300KV-5" entityUid="Racerstar-BR2205-2300KV*:*Default">
+<Transform>
+<Rotation>-0.70710678118654147 7.4065503932468595e-15 0.70710678118655368 -0.70710678118655368 -7.4065503932467333e-15 -0.70710678118654147 0 -1 1.04744440165294e-14</Rotation>
+<Translation>-0.1815886461975289 -0.10895512501169211 -0.18868776269040924</Translation>
+</Transform>
+</Instance>
+<Instance name="5045PropellerCCW.STEP-1" uid="5045PropellerCCW.STEP-1" entityUid="5045PropellerCCW.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.22056583867270843 -0.026396198617488792 -0.15053695139154</Translation>
+</Transform>
+<Instance name="5045 CCW.step.STEP-1" uid="5045 CCW.step.STEP-1" grounded="true" entityUid="5045 CCW.step.STEP*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1e-14 1 0 -1 1e-14</Rotation>
+<Translation>-0.242154484870239 -0.0025589263941999986 -0.055650811298869007</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="5045PropellerCW.STEP-2" uid="5045PropellerCW.STEP-2" entityUid="5045PropellerCW.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.060565838672708455 0.053603801382510287 -0.15053695139153925</Translation>
+</Transform>
+<Instance name="5045 CW.step.STEP-1" uid="5045 CW.step.STEP-1" grounded="true" entityUid="5045 CW.step.STEP*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1e-14 1 0 -1 1e-14</Rotation>
+<Translation>-0.242154484870239 -0.0025589263942000021 -0.055650811298869007</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Pata.step-3" uid="Pata.step-3" entityUid="Pata.step*:*Predeterminado">
+<Transform>
+<Rotation>-0.70710678118655124 2.4336433109598387e-15 0.70710678118654391 0.70710678118654391 2.4336433109598639e-15 0.70710678118655124 0 1 -3.4416913763379849e-15</Rotation>
+<Translation>-0.18158864619753085 0.051044874988308453 -0.18568776269040838</Translation>
+</Transform>
+</Instance>
+<Instance name="Pata.step-4" uid="Pata.step-4" entityUid="Pata.step*:*Predeterminado">
+<Transform>
+<Rotation>-0.70710678118655124 2.4336433109598387e-15 0.70710678118654391 0.70710678118654391 2.4336433109598639e-15 0.70710678118655124 0 1 -3.4416913763379849e-15</Rotation>
+<Translation>-0.18158864619753048 -0.10895512501169154 -0.18568776269040804</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<UnknownConstraint name="CentroDePerfil1">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Racerstar-BR2205-2300KV-5</Uid>
+</InstancePath>
+<Position>0.0095000000000000084 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>DronCuadrado.step-1</Uid>
+</InstancePath>
+<Position>-0.086717514421272207 0.0030000000000000027 0.086717514421272235</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+<UnknownConstraint name="CentroDePerfil2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Racerstar-BR2205-2300KV-3</Uid>
+</InstancePath>
+<Position>0.0095000000000000084 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>DronCuadrado.step-1</Uid>
+</InstancePath>
+<Position>-0.086717514421272207 0.0030000000000000304 -0.073282485578727796</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+<UnknownConstraint name="CentroDePerfil3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Racerstar-BR2205-2300KV-1</Uid>
+</InstancePath>
+<Position>-0.0095000000000000084 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>DronCuadrado.step-1</Uid>
+</InstancePath>
+<Position>0.073282485578727796 0.0030000000000000027 0.086717514421272207</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+<UnknownConstraint name="CentroDePerfil4">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Racerstar-BR2205-2300KV-2</Uid>
+</InstancePath>
+<Position>-0.0095000000000000015 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>DronCuadrado.step-1</Uid>
+</InstancePath>
+<Position>0.073282485578727796 0.0030000000000000304 -0.073282485578727796</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+<UnknownConstraint name="CentroDePerfil5">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>20x20 ESC.step-1</Uid>
+</InstancePath>
+<Position>-0.0099999999999999985 -0.010000000000000009 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>DronCuadrado.step-1</Uid>
+</InstancePath>
+<Position>0.010000000000000002 0.0030000000000000304 -0.009999999999999995</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Coincident name="Coincidente1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>DronCuadrado.step-1</Uid>
+</InstancePath>
+<Position>-0.0081249999999992092 0 0.041562602614787697</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TATTU 1300mah 3s-1</Uid>
+<Uid>tattu 1300MHa 3s LiPo-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Racerstar-BR2205-2300KV-3</Uid>
+</InstancePath>
+<Position>-0.0028500000000000053 0.017499999999999988 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>5045PropellerCW.STEP-1</Uid>
+<Uid>5045 CW.step.STEP-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Racerstar-BR2205-2300KV-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>5045PropellerCW.STEP-1</Uid>
+<Uid>5045 CW.step.STEP-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Racerstar-BR2205-2300KV-1</Uid>
+</InstancePath>
+<Position>-0.0028499999999999914 0.017500000000000016 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>5045PropellerCW.STEP-2</Uid>
+<Uid>5045 CW.step.STEP-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Racerstar-BR2205-2300KV-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>5045PropellerCW.STEP-2</Uid>
+<Uid>5045 CW.step.STEP-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Racerstar-BR2205-2300KV-2</Uid>
+</InstancePath>
+<Position>-0.0028500000000000018 0.017499999999999988 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>5045PropellerCCW.STEP-1</Uid>
+<Uid>5045 CCW.step.STEP-1</Uid>
+</InstancePath>
+<Position>0 0 0.080000000000000002</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Racerstar-BR2205-2300KV-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>5045PropellerCCW.STEP-1</Uid>
+<Uid>5045 CCW.step.STEP-1</Uid>
+</InstancePath>
+<Position>0 0 0.080000000000000002</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Racerstar-BR2205-2300KV-5</Uid>
+</InstancePath>
+<Position>-0.0028500000000000192 0.017499999999999988 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>5045PropellerCCW.STEP-2</Uid>
+<Uid>5045 CCW.step.STEP-1</Uid>
+</InstancePath>
+<Position>0 0 0.079999999999999988</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Racerstar-BR2205-2300KV-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>5045PropellerCCW.STEP-2</Uid>
+<Uid>5045 CCW.step.STEP-1</Uid>
+</InstancePath>
+<Position>0 0 0.079999999999999988</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<UnknownConstraint name="CentroDePerfil6">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Pata.step-1</Uid>
+</InstancePath>
+<Position>0.0079999999999999863 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>DronCuadrado.step-1</Uid>
+</InstancePath>
+<Position>-0.0743431457505076 0 -0.0743431457505076</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+<UnknownConstraint name="CentroDePerfil7">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Pata.step-2</Uid>
+</InstancePath>
+<Position>-0.0080000000000000002 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>DronCuadrado.step-1</Uid>
+</InstancePath>
+<Position>0.0743431457505076 0 -0.08565685424949239</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+<UnknownConstraint name="CentroDePerfil8">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Pata.step-3</Uid>
+</InstancePath>
+<Position>0.0080000000000000071 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>DronCuadrado.step-1</Uid>
+</InstancePath>
+<Position>0.085656854249492376 0 0.085656854249492403</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+<UnknownConstraint name="CentroDePerfil9">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Pata.step-4</Uid>
+</InstancePath>
+<Position>0.008000000000000021 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>DronCuadrado.step-1</Uid>
+</InstancePath>
+<Position>-0.0743431457505076 0 0.085656854249492403</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+</Constraints>
+<Frames>
+</Frames>
+</RootAssembly>
+<Assemblies>
+<Assembly name="TATTU 1300mah 3s" uid="TATTU 1300mah 3s" version="306">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="TATTU 1300mah 3s.SLDASM" type="SolidWorks Assembly"/>
+<Frames>
+</Frames>
+</Assembly>
+<Assembly name="5045PropellerCW.STEP" uid="5045PropellerCW.STEP" version="116">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="5045PropellerCW.STEP.SLDASM" type="SolidWorks Assembly"/>
+<Frames>
+</Frames>
+</Assembly>
+<Assembly name="5045PropellerCCW.STEP" uid="5045PropellerCCW.STEP" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="5045PropellerCCW.STEP.SLDASM" type="SolidWorks Assembly"/>
+<Frames>
+</Frames>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="20x20 ESC.step" uid="20x20 ESC.step*:*Predeterminado" version="119">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="20x20 ESC.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.058000000000000003</Mass>
+<CenterOfMass>0 -0.00066358091351947967 0.00081179286931203217</CenterOfMass>
+<Inertia>3.623534160044905e-06 4.5274521996633151e-06 8.0988991616739717e-06 -4.479950652710159e-10 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="20x20 ESC.step_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="5045 CCW.step.STEP" uid="5045 CCW.step.STEP*:*Predeterminado" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="5045 CCW.step.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0060000000000000001</Mass>
+<CenterOfMass>2.2153840452243465e-05 0.0036348284082231628 0.080050445148012211</CenterOfMass>
+<Inertia>2.8367249837978741e-06 5.6272038643327642e-06 2.8224830429119934e-06 -2.5398989288565203e-10 1.899010371537236e-09 3.4689953629517599e-10</Inertia>
+</MassProperties>
+<GeometryFile name="5045 CCW.step.STEP_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="5045 CW.step.STEP" uid="5045 CW.step.STEP*:*Predeterminado" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="5045 CW.step.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0060000000000000001</Mass>
+<CenterOfMass>-4.2065092276640157e-05 0.0036466963499430646 -4.7703509250382222e-06</CenterOfMass>
+<Inertia>2.8471058173336518e-06 5.6698607777814523e-06 2.8549750795010421e-06 -9.8027270587690962e-11 7.4163407228059984e-09 1.1552116178659069e-09</Inertia>
+</MassProperties>
+<GeometryFile name="5045 CW.step.STEP_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="DronCuadrado.step" uid="DronCuadrado.step*:*Predeterminado" version="119">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="DronCuadrado.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.065243106516576152</Mass>
+<CenterOfMass>-2.7115652579374127e-06 0.0044898513089592735 -0.00012413178997075299</CenterOfMass>
+<Inertia>0.00020296373200917798 0.00040346485466448922 0.00020191347019019287 6.8212929968698917e-09 4.8684687887316286e-09 3.3501582225309899e-10</Inertia>
+</MassProperties>
+<GeometryFile name="DronCuadrado.step_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.62745098039215685" g="0.62745098039215685" b="0.62745098039215685" a="1"/>
+<Diffuse r="0.62745098039215685" g="0.62745098039215685" b="0.62745098039215685" a="1"/>
+<Specular r="0.31372549019607843" g="0.31372549019607843" b="0.31372549019607843" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="FUNDA 13" uid="FUNDA 13*:*Predeterminado" version="581">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="FUNDA 13.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0018615293885939448</Mass>
+<CenterOfMass>0.0034125831244200861 0.011001848803654726 3.3082438915752726e-06</CenterOfMass>
+<Inertia>4.668349748691675e-07 1.3182272956848454e-06 1.1618635669788069e-06 5.4164648371795072e-12 2.5648186510621336e-10 4.5151517367273196e-10</Inertia>
+</MassProperties>
+<GeometryFile name="FUNDA 13_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="JST XHP-4" uid="JST XHP-4*:*Predeterminado" version="149">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="JST XHP-4.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00028807042967635653</Mass>
+<CenterOfMass>-0.0011406075984151207 0.0010995392424490008 0.0038557751925635351</CenterOfMass>
+<Inertia>2.2192933650513709e-09 6.3059036725929688e-09 5.2722807142339967e-09 -4.6161942625958205e-12 -8.1903195158893333e-12 1.3337349261689391e-12</Inertia>
+</MassProperties>
+<GeometryFile name="JST XHP-4_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.30000001192092896" g="0.30000001192092896" b="0.30000001192092896" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.5</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="Pata.step" uid="Pata.step*:*Predeterminado" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Pata.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0050000000000000001</Mass>
+<CenterOfMass>-6.5129129676085816e-10 0.013406386021601607 1.3822907848556138e-09</CenterOfMass>
+<Inertia>1.0209210451097916e-06 2.8176749219225665e-07 8.9693705672678762e-07 3.5372388175579849e-14 7.1336737119970741e-13 -2.4170211815361762e-14</Inertia>
+</MassProperties>
+<GeometryFile name="Pata.step_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.62745098039215685" g="0.62745098039215685" b="0.62745098039215685" a="1"/>
+<Diffuse r="0.62745098039215685" g="0.62745098039215685" b="0.62745098039215685" a="1"/>
+<Specular r="0.31372549019607843" g="0.31372549019607843" b="0.31372549019607843" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="Racerstar-BR2205-2300KV" uid="Racerstar-BR2205-2300KV*:*Default" version="229">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Racerstar-BR2205-2300KV.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.029999999999999999</Mass>
+<CenterOfMass>-0.00084105644058565722 0.0084779563449958045 -0.00084109212344337877</CenterOfMass>
+<Inertia>2.6085232080385853e-06 3.6097863761769802e-06 2.6014110288410647e-06 -1.4690751719247167e-07 -4.5576549271797553e-07 -1.4693811489425427e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Racerstar-BR2205-2300KV_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.24705882352941178" b="0.24705882352941178" a="1"/>
+<Diffuse r="1" g="0.24705882352941178" b="0.24705882352941178" a="1"/>
+<Specular r="0.29999999999999999" g="0.074117647058823524" b="0.074117647058823524" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="XT60 Buchse" uid="XT60 Buchse*:*Predeterminado" version="111">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="XT60 Buchse.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.001127654022678008</Mass>
+<CenterOfMass>0.00053200568907524532 4.4391752311574733e-05 0.0074145904755875368</CenterOfMass>
+<Inertia>2.9444065369389824e-08 4.3886925884536728e-08 2.4996112482074836e-08 -2.1957969775075761e-10 6.4150708648682501e-12 2.8215173554030167e-11</Inertia>
+</MassProperties>
+<GeometryFile name="XT60 Buchse_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.77254901960784317" b="0" a="1"/>
+<Diffuse r="0.69999999999999996" g="0.54078431372549018" b="0" a="1"/>
+<Specular r="0.29999999999999999" g="0.23176470588235293" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.5</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="tattu 1300MHa 3s LiPo" uid="tattu 1300MHa 3s LiPo*:*Predeterminado" version="2992">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="tattu 1300MHa 3s LiPo.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.17400000000000002</Mass>
+<CenterOfMass>-0.00036951243836230306 0.011066942907679357 -0.00052688803391603501</CenterOfMass>
+<Inertia>2.3717677437004764e-05 9.6495275658886224e-05 8.6420682210633568e-05 1.9976461399158244e-07 -6.2242068115287041e-07 4.8390281527747061e-07</Inertia>
+</MassProperties>
+<GeometryFile name="tattu 1300MHa 3s LiPo_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
