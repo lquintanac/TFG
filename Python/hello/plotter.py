@@ -89,7 +89,7 @@ longitud_cons_metros = []
 auxx = []
 auxy = []
 
-with open('E:ARCHIVOS/ESTUDIOS/Universidad/2021-2022/TFG/Github/Red-Baron/Python/hello/Serials/serial_20221130_123001.txt','r') as csvfile:
+with open('E:ARCHIVOS/ESTUDIOS/Universidad/2021-2022/TFG/Github/TFG/Python/hello/Serials/serial_20221129_110920.txt','r') as csvfile:
     plots = csv.reader(csvfile, delimiter=' ')
     for row in plots:
         hora.append((row[0]))
@@ -156,8 +156,9 @@ with open('E:ARCHIVOS/ESTUDIOS/Universidad/2021-2022/TFG/Github/Red-Baron/Python
 minX = millis[0]
 maxX = millis[len(millis)-1]
 
-# minX = 208101
+# minX = 370000
 # maxX = 220860	
+print(distanceBetween(0,0,0 ,0.00000001))
 
 for n in range(len(millis)-1):
 
@@ -417,7 +418,7 @@ plt.subplots_adjust(left=0.055, bottom=0.079, right=0.955, top=0.98, wspace=0, h
  
 """****************************************** MAGNETOMETRO ******************************************"""
 
-"""fig5 = plt.figure(6,label='Magnetometro')
+fig5 = plt.figure(6,label='Magnetometro')
 sub1 = plt.subplot(311)
 plt.plot(magx, magy, label = 'Calibracion')
 sub1.set_ylabel('Raw')
@@ -456,7 +457,7 @@ plt.plot(auxx, auxy, label = 'Compensación', color = "orange")
 sub2.set_xlabel('Xh (mgauss)')
 #sub1.set_ylim(-10, 40)
 sub2.grid(True)
-sub2.legend()"""
+sub2.legend()
 
 
 """****************************************** GPS PID ******************************************"""
